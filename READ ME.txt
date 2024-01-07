@@ -1,0 +1,9 @@
+to make the feedback work :
+1-you should connect the WG and the oscilloscope and 
+the PC to LAN and make sure they can comunicate (preferably same network)
+2- search the IP adress for both your WG and oscilloscope (usually in I\O settings )\
+3-change the numbers {132.68.57.40}oscilloscope_resource = 'TCPIP0::132.68.57.40::inst0::INSTR'(line 29) to the oscilloscope I.P
+4- change the numbers {132.68.57.40}WG_adress = 'TCPIP0::132.68.57.39::inst0::INSTR'(line 39) to the WG I.P
+for optimizer project with 48V output thats it just conect the circet  
+
+if you want another output you should change the ranges in line 81 and 84 to what you want 
